@@ -205,7 +205,7 @@ output1.onblur=function(){
 
 var output2 = document.getElementById("input02");
 output2.onblur=function(){
-    if(output1.value==""){
+    if(output2.value==""){
         document.getElementById("inid5").innerHTML="密码不能为空";
     }
     else{
